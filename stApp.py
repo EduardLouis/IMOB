@@ -1,13 +1,29 @@
 import streamlit as st
-import json
-import os
 
-# Assuming you have the 'rows' list containing the extracted data
-output_file_pathJSON = 'output.json'
+# Set page title
 
-# Load the JSON data from the file
-with open(output_file_pathJSON, 'r') as json_file:
-    json_data = json.load(json_file)
+st.title("My Simple Streamlit App")
 
-# Display the JSON data in a table using Streamlit
-st.table(json_data)
+# Display a message
+
+st.write("Welcome to my app!")
+
+# Run the app
+
+if __name__ == '__main__':
+
+    st.run()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
