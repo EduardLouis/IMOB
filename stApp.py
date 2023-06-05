@@ -1,8 +1,9 @@
 import streamlit as st
 import json
+import os
 
 # Assuming you have the 'rows' list containing the extracted data
-output_file_pathJSON = os.path.join(script_directory, 'output.json')
+output_file_pathJSON = 'output.json'
 
 # Load the JSON data from the file
 with open(output_file_pathJSON, 'r') as json_file:
